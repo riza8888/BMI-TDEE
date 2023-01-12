@@ -1,6 +1,12 @@
-.container-utama{
-    /* background-color: rgb(31, 242, 242); */
-
+body{
+    display: flex;
+  /* flex-direction: column; */
+  align-items: center; /* centering horizontaly */
+  height: 100vh;
+  justify-content: center; /* centering vertically, harus di atur heightnya */
+  background-image: href="";
+  background-size: cover;
+  /* overflow: hidden; menghilangkan crollbar */
 }
 
 *{
@@ -43,16 +49,7 @@ input{
 
 #jenisWanita{
     width: 15px;
-}
-body{
-    display: flex;
-  /* flex-direction: column; */
-  align-items: center; /* centering horizontaly */
-  height: 100vh;
-  justify-content: center; /* centering vertically, harus di atur heightnya */
-  background-image: href="";
-  background-size: cover;
-  /* overflow: hidden; menghilangkan crollbar */
+
 }
 
 .container {
