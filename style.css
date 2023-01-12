@@ -1,20 +1,84 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.input-box{
+    width: 90%;
+
+}
+
+.ul-bmi{
+    width: 50%;
+}
+
+.judul{
+    margin-bottom: 30px;
+}
+
 body{
     display: flex;
   /* flex-direction: column; */
-  align-items: center; /* centering horizontaly */
+  align-items: center; 
+  /* centering horizontaly */
   height: 100vh;
-  justify-content: center; /* centering vertically, harus di atur heightnya */
-  background-image: href="";
-  background-size: cover;
+  justify-content: center; 
+  /* centering vertically, harus di atur heightnya */
+  background-size: 10%;
   /* overflow: hidden; menghilangkan crollbar */
 }
 
-*{
-    font-family: sans-serif;
+.text-TDE{
+    padding-left: 4.5;
+    text-decoration: none;
 }
 
+.form-input-BMI{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.kelamin{
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.kirim{
+    margin-left: 5%;
+}
+
+.text-app{
+   
+    /* background-color: black; */
+    /* display: inline; */
+    text-decoration: none;
+    
+}
+
+.text-TDEE{
+    padding-left: 4.5em;
+    text-decoration: none;
+}
+
+.text-BMI{
+    /* margin-left: 10em; */
+    padding-left: 1cm;
+    /* padding-top: 1cm; */
+    text-decoration: none;
+}
+
+
+.container-img{
+    align-items: center;
+    margin-left: 5%;
+}
+
+
+
 .button-submit{
-background:  #e0f9ff ;
+background:  #d4edf3 ;
   color:  #6366f1;
   border: none;
   padding: 0.8rem;
@@ -35,6 +99,14 @@ background:  #e0f9ff ;
 
 li{list-style: none;}
 
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 input{
     width: 4em;
 }
@@ -49,9 +121,26 @@ input{
 
 #jenisWanita{
     width: 15px;
-
 }
 
+.form-input {
+    display: flex;
+    justify-content: space-between;
+}
+.form-input input {
+    width: 100px;
+    /* margin-left: 14px */
+}
+
+#output-tdee{
+    background-color: rgb(36, 125, 220);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .container {
     width: 100%;
     height: 100vh;
@@ -62,18 +151,63 @@ input{
     font-family: monospace;
 }
 
-#container-MBI{
-    background-color: aquamarine;
-}
-.layer {
-    /* background-color: aqua; */
-    width: 40%;
+.container-utama {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.absolute {
+.container-div{
+    display: flex;
+    align-items: center;
+}
+
+.div2{
+    width: 50%;
+}
+
+#container-bmi{
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+/* .absolute {
     position: absolute;
+} */
+
+.a:hover {
+    background-color: rgb(43, 107, 166);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+#jenisPria{
+    width: 15px;
+}
+
+#jenisWanita{
+    width: 15px;
+}
+
+.form-input {
+    display: flex;
+    justify-content: space-between;
+}
+.form-input input {
+    width: 100px;
+    /* margin-left: 14px */
+}
+
+#output-tdee{
+    background-color: rgb(36, 125, 220);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }

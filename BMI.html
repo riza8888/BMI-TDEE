@@ -8,20 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <Div id="container-bmi">
-        <ul>
-            <li>
-                <a class="" href="index.html">home</a>
-                <p>Nama : <input type="text" id="input-nama-bmi"></p>
-                <p class="">tinggi : <input type="text" id="input-tinggi-bmi"> cm</p>
-                <p class="">berat : <input type="text" id="input-berat-bmi"> kg</p>   
-                <label for="">Jenis Kelamin</label>
-    <input id="jenisPria" type="radio" name="jenis_kelamin" id="l"><label for="l">Pria</label>
-    <input id="jenisWanita" type="radio" name="jenis_kelamin" id="p"><label for="p">Wanita</label>
-            </li>
-            <p><input type="submit" id="submit-bmi"></p>
-            <p><input type="reset" id="reset-bmi"></p>
-        </ul>
-    </Div>
+    <div id="container-bmi">
+        <div class="container-">
+            <br>
+            <a class="text-BMI" href="index.html">home</a>
+            <div style="display: flex;">                
+                <ul  class="ul-bmi" > 
+                    <br>
+                    <img class="container-img" src="bmi.png" alt="bmi" width="206px"/>
+                    <li class="form-input-BMI">    
+                        <br>
+                        <p class="input-box">Nama :<input type="text" id="input-nama-bmi"></p>
+                        <br>
+                        <p class="input-box">tinggi  : <input type="text" id="input-tinggi-bmi"> cm</p>
+                        <br>
+                        <p class="input-box">berat  : <input type="text" id="input-berat-bmi"> kg</p>  
+                        <br>
+                        <div class="kelamin">
+                            <span>Jenis Kelamin</span>
+                            <input id="jenisPria" type="radio" name="jenis_kelamin"><label for="jenisPria">Pria</label>
+                            <input id="jenisWanita" type="radio" name="jenis_kelamin" id="p"><label for="p">Wanita</label>                            
+                        </div> 
+                        <br>
+                    </li>
+                    <p class="kirim"><input type="submit" id="submit-bmi"> <input type="reset" id="reset-bmi"></p>
+                    <!-- <p><input type="reset" id="reset-bmi"></p> -->
+                    <br>
+                </ul>
+                <div class="div2">
+                    <h2>"value"</h2>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
