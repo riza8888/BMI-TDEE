@@ -1,3 +1,49 @@
+.container-utama{
+    /* background-color: rgb(31, 242, 242); */
+
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.button-submit{
+background:  #e0f9ff ;
+  color:  #6366f1;
+  border: none;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+.button-reset{
+    background:  #e0e7ff ;
+  color:  #6366f1;
+  border: none;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+li{list-style: none;}
+
+input{
+    width: 4em;
+}
+
+#inputnama{
+    width: 5em;
+}
+
+#jenisPria{
+    width: 15px;
+}
+
+#jenisWanita{
+    width: 15px;
+}
 body{
     display: flex;
   /* flex-direction: column; */
