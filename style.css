@@ -46,3 +46,39 @@ input{
 #jenisWanita{
     width: 15px;
 }
+body{
+    display: flex;
+  /* flex-direction: column; */
+  align-items: center; /* centering horizontaly */
+  height: 100vh;
+  justify-content: center; /* centering vertically, harus di atur heightnya */
+  background-image: href="";
+  background-size: cover;
+  /* overflow: hidden; menghilangkan crollbar */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+#container-MBI{
+    background-color: aquamarine;
+}
+.layer {
+    /* background-color: aqua; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.absolute {
+    position: absolute;
+}
